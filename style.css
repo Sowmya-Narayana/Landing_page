@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+
+
+
+.sec1{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+.left_links{
+    font-size: 18px;
+    color:#E5E7EB;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+.page_intro{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lft_side  h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    
+    
+}
+.rgt_side{
+    background-color: grey;
+    
+}
+.page_intro .lft_side.rgt_side{
+    flex:1,1,auto;
+}
+button{
+    background-color: #3882F6;
+}
