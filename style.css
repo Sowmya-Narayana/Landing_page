@@ -3,7 +3,7 @@
     height: 100vh;
     background-color: black;
     flex-direction: column;
-    justify-content: space-around;
+   
 }
 
 
@@ -11,6 +11,8 @@
 .sec1{
     background-color: #1F2937;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .sec2{
     background-color: aliceblue;
@@ -23,4 +25,25 @@
 .sec4{
     background-color: aliceblue;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_links{
+    flex:1;
+    
+}
+.content_image{
+    flex:2;
+    
+}
+
+.footer{
+    background-color: #3882F6;
+    width: 3500px;
+    height: 350px;
+    display: flex;
+   
+    
 }
