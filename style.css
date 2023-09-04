@@ -1,61 +1,73 @@
-body{
+.landing_page{
     display: flex;
     flex-direction: column;
-    flex:1;
+    flex: 1,1,auto; 
 }
-
-
-
-
 .sec1{
     background-color: #1F2937;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    color: #F9FAF8;
+    height:500px;
+}
+.sec2{
+    height: 500px;
 
 }
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    margin-right: auto;
+.sec3{
+    background: color #616267;
+    height: 500px;
+
 }
-.left_links{
-    font-size: 18px;
-    color:#E5E7EB;
-    margin-right: auto;
+.sec4{
+    background-color: #1F2937;
+    height: 100px;
 }
-.header{
+.title_links{
     display: flex;
     flex-direction: row;
-    padding: 0;
-    justify-content: space-around;
-    
+    height:250px;
+    justify-content: space-between;
 }
-ul{
+
+.heading{
+    font-size: 24px;
+    font-weight: 1000;
+    padding: 20px;
+    /* display: flex;
+    position: absolute;
+    left: 50px; */
+
+}
+.links{
+    display:flex;
     list-style-type: none;
+    position: absolute;
+    right: 100px;
+    
+}
+
+li{
+    display: inline-flex;
+    margin: 10px;
+    
+    
+}
+
+.hero{
+    /* margin-top: 100px; */
+    /*display: flex;
+    flex-direction: row;
+    flex: 1;*/
+    height:250px;
     display: flex;
-    gap:20px;
+    flex-direction: row;
+    flex:1
 }
-.page_intro{
-    display: flex;
-    justify-content: space-around;
-    
+.content{
+    height: 150px;
 }
-.lft_side  h1{
-    font-size: 48px;
-    font-weight: 800;
-    color: #F9FAF8;
-    
-    
+.img{
+    height: 150px;
+    width: 250px;
 }
-.rgt_side{
-    background-color: grey;
-    
-}
-.page_intro .lft_side.rgt_side{
-    flex:1,1,auto;
-}
-button{
-    background-color: #3882F6;
-}
+
+
