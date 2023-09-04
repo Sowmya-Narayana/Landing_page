@@ -13,6 +13,47 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.logo_links{
+    width: 75%;
+   
+    height: 25%;
+}
+.content_image{
+    width: 75%;
+    
+    height: 75%;
+    display: flex;
+    gap: 10px;
+}
+.cnt_img1{
+    height: 100%;
+    width: 50%;
+    flex: auto;
+    
+    
+}
+.cnt_img2{
+    height: 100%;
+    width: 50%;
+    flex: auto;
+    background-color:grey;
+    
+}
+.logo_links h1{
+    font-size: 50px;
+    font-weight: 900;
+    display: inline;
+}
+ul{
+    list-style-type: none;
+    font-size: 35px;
+    display: inline;
+}
+li{
+    display: inline;
 }
 
 .sec2{
