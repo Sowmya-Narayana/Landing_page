@@ -44,6 +44,22 @@
     width: 3500px;
     height: 350px;
     display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
    
-    
+}
+.footer_content{
+    width:1730px;
+    height:155px;
+    background: red;
+    border: 4px pink;
+
+}
+.footer_button{
+    width:1730px;
+    height:155px;
+    border: pink;
+    background: red;
+
 }
