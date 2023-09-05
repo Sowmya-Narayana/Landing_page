@@ -51,9 +51,12 @@ ul{
     list-style-type: none;
     font-size: 35px;
     display: inline;
+    align-items: end;
 }
 li{
     display: inline;
+    
+    right: 0;
 }
 
 .sec2{
@@ -121,6 +124,7 @@ li{
     background-color: #3882F6;
     border-color: aliceblue;
     color: aliceblue;
+    border-radius: 20px;
     
 }
  .quote{
